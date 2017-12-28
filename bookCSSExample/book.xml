@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookdoc2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/bookdoc2.xsd">
+<?xml-stylesheet type ="text/css" href="book.css"?>
+
+<books>	
+<messages> List of books for sale</messages>  
+	<book>
+
+		<name> XML Book</name>
+		<author> Author: Carey</author>
+		<title> Title: New Perspective on XML</title>
+		<price> Price: US:$60.35</price>
+	</book>	
+	<book>
+		<name> Java Book</name>
+		<author>Author: John White</author>
+		<title>Title: Advanced Java</title>
+		<price> Price: US: $40.25</price>
+	</book>
+</books>
+</bookdoc2>

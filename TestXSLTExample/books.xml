@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application" href="books.xsl"?>
+
+	<!-- Author: Thomas Pfaeffle -->
+	<!--Assignment 4 -->
+	
+<!-- Contains data for name and address of a bookstore, list of books for sale at the store.
+For each book, contains its category, publisher, year of publication, author, title, price, and summary.
+Introduce new elements "store" and "storename". new attribute "address".
+Added data for Romance books. 
+
+Renders in IE and internal browser. Does not render at all in Chrome.
+-->
+
+
+
+
+<store>
+	<storename address="San Mateo, California">Tom's Bookstore</storename>
+	<books>
+		<messages>
+			List of Books for Sale
+		</messages>
+		<book publisher="Course-Technology" year="2006">
+			<name>XML Books</name>
+			<author>Author: Carey</author>
+			<title>Title: New Perspectives on XML</title>
+			<price>Price US: $60.35</price>
+			<summary>Summary: A good book for beginning XML students.</summary>
+		</book>
+		<book publisher="McGraw-Hill">
+			<name>Java Books</name>
+			<author>Author: John White</author>
+			<title>Title: Advanced Java</title>
+			<price>Price US: $40.00</price>
+			<summary>Summary: A good book for students, but be prepared to 
+			put in 30 hours per week. </summary>
+		</book>
+		<book publisher="Doubleday" year="1977">
+			<name>Romance Books</name>
+			<author>Author: Barbara Cartland</author>
+			<title>Title: Passion at the Castle</title>
+			<price>Price US: $5.95</price>
+			<summary>Summary: A good escape when you are tired of reading software books. </summary>
+		</book>
+	</books>
+</store>

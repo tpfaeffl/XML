@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- Thomas Pfaeffle XML Essentials  -->
+<!-- Assignment 2 -->
+<!-- Schema file for the books.xml file. Root element "bookcatalog". -->
+
+	<xsd:element name = "bookcatalog">
+	<xsd:complexType>
+		<xsd:sequence minOccurs="1" maxOccurs="unbounded">
+		
+		  <xsd:element name="messages"> 
+		  <xsd:complexType>
+		  	<xsd:simpleContent>
+		  		<xsd:extension base="xsd:string">
+		  			<xsd:attribute name="id" type="xsd:string" use="optional"/>	
+		  		</xsd:extension>
+		  	</xsd:simpleContent>
+		  </xsd:complexType>
+		  </xsd:element>
+		  	
+		  <xsd:element name="books">	
+			<xsd:complexType>
+			<xsd:sequence minOccurs="1" maxOccurs="unbounded">
+			
+				<xsd:element name ="book">
+					<xsd:complexType>
+					<xsd:sequence minOccurs="1" maxOccurs="unbounded">
+						<xsd:element name="name" type="xsd:string"/>
+						<xsd:element name="author" type="xsd:string"/>
+						<xsd:element name ="title" type="xsd:string"/>					
+						<xsd:element name="price" type="xsd:string"/>
+						<xsd:element name="summary" type="xsd:string"/>						
+						</xsd:sequence>									
+					</xsd:complexType>
+				
+				</xsd:element>  <!-- close book element -->
+			  </xsd:sequence> 
+			  </xsd:complexType>
+			</xsd:element>  <!--  close books element -->
+		 	 </xsd:sequence> 
+		 	 </xsd:complexType>
+    		</xsd:element>
+    		
+  
+
+</xsd:schema>

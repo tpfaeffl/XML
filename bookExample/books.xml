@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookcatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/bookdoc.xsd">
+<?xml-stylesheet type="text/css" href = "book.css"?>
+
+<!-- Thomas Pfaeffle XML Essentials  -->
+<!-- Assignment 2 -->
+<!-- The books.xml instance file -->
+	
+<!-- books from barnes and noble for sale -->
+		<messages id="BN"> List of Barnes and Noble Books for Sale (UK)</messages>
+		<books>
+ 		
+			<book>
+				<name>XML Book</name>
+				<author>Author: Carey</author>
+				<title> Title: New Perspectives on XML</title>
+				
+				<price>&#163;60.35</price>
+				<summary>
+				<![CDATA[Summary: A good book with lots of case studies.
+				]]>				
+				</summary>
+		
+			</book>
+	
+			<book>
+				<name>Java Book</name>
+				<author>Author: Wiley</author>
+				<title> Title: Java Comprehensive </title>
+				
+				<price>&#163;125.35</price>
+				<summary>
+				<![CDATA[Summary: A good book, but be ready to spend about 30 hours per week.
+				]]>				
+				</summary>
+		
+			</book>
+		</books>
+
+<!--  books from amazon for sale  -->
+		<messages id="AM"> List of Amazon Books for Sale (UK)</messages>
+		<books>
+		 
+			<book>
+				<name>Python Book</name>
+				<author>Author: Smith</author>
+				<title> Title: Python Made Easy</title>
+				<price>&#163;15.35</price>
+				<summary>
+				<![CDATA[Summary: A good book for beginning programmers. Must understand indented languages.
+				]]>				
+				</summary>
+			</book>
+	
+			<book>
+				<name>C++ Book</name>
+				<author>Author: Jones</author>
+				<title> Title: C++ Impossible to Make Easy </title>
+				<price>&#163;200.35</price>
+				<summary>
+				<![CDATA[Summary: This is a good book if you are into masochism.
+				]]>				
+				</summary>
+			</book>
+		</books>
+
+ 	</bookcatalog>

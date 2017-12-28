@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- targetNamespace="http://www.example.org/bookdoc" xmlns:tns="http://www.example.org/bookdoc" elementFormDefault="qualified"> --> 
+	<xsd:element name= "books">
+		<xsd:complexType>
+			<xsd:sequence>
+	 			<xsd:element name= "messages" type="xsd:string" />
+				<xsd:element name = "book">
+					<xsd:complexType>
+					<xsd:sequence>
+						
+						<xsd:element name ="name" type="xsd:string" />
+						<xsd:element name = "author" type="xsd:string"/>
+						<xsd:element name = "title" type = "xsd:string"/>
+						<xsd:element name = "price" type ="xsd:decimal"  />
+					</xsd:sequence> 
+					</xsd:complexType>
+					</xsd:element>
+		</xsd:sequence>
+		</xsd:complexType> 
+		</xsd:element>
+	</xsd:schema>
+

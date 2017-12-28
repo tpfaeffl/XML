@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+<books>
+	<messages>
+		List of Books for Sale
+	</messages>
+	<book publisher="Course-Technology" year="2006">
+		<name>XML</name>
+		<author>Carey</author>
+		<title>New Perspectives on XML</title>
+		<price>US: $60.35</price>
+		<summary>Summary: A good book for beginning XML students.</summary>
+	</book>
+	<book publisher="McGraw-Hill">
+		<name>Java</name>
+		<author>John White</author>
+		<title>Advanced Java</title>
+		<price>$40.00</price>
+		<summary>Summary: A good book for students, but be prepared to 
+		put in 30 hours per week. </summary>
+	</book>
+</books>

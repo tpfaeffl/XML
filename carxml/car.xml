@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/cardoc.xsd">
+<?xml-stylesheet type ="text/css" href="car.css"?>
+<vehicle>
+<messages>Tom&apos;s Motors: List of Cars in Inventory</messages>
+
+	<car>
+		<build>Year: 2010</build> 		
+		<name>Chevy</name>
+		<model>Malibu</model>
+		<tire>Tires: Bridgestone</tire>
+		<advertisement>Good Condition!!</advertisement>
+	</car>
+	
+	<car>
+		<build>Year: 2010</build> 
+		<name>Toyota</name>
+		<model>Camry</model>
+		<tire>Tires: Michelin</tire>
+		<advertisement>Low Mileage!!</advertisement>
+	</car>
+	
+	<car>
+		<build>Year: 2010</build> 
+		<name>Ford</name>
+		<model> Focus</model>
+		<tire>Tires: Firestone</tire>
+		<advertisement>Goes Forward and Reverse!!</advertisement>
+	</car>
+	
+		<car>
+		<build>Year: 2005</build> 
+		<name>Honda</name>
+		<model>Civic</model>
+		<tire>Tires: Yamaha</tire>
+		<advertisement>This is a beautiful car!!</advertisement>
+	</car>
+
+</vehicle>
+</cardoc>

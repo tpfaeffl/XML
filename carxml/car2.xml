@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/cardoc.xsd">
+<?xml-stylesheet type ="text/css" href="car.css"?>
+<vehicle>
+	<car build="2010" model="Malibu" name="Chevy">
+		<tire name="Bridgestone"/>
+	</car>
+	<car build = "2010" model = "Camry" name = "Toyota">
+		<tire name = "Michelin"/>
+		<advertisement type = "tv">
+		This is a beautiful car
+		</advertisement>
+	</car>
+	
+	<car build = "2010" model = "Focus" name = "Ford">
+		<tire name = "Firestone"/>
+	</car>
+	<car build="2005" model="Civic" name="Honda">
+		<tire name = "Yamaha"/>
+	</car>
+
+</vehicle>
+</cardoc>

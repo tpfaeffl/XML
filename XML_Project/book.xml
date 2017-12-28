@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookdoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/bookdoc.xsd">
+
+		<book publisher= "course technology" datePublished="2007-01-15" price="70">
+			<name> xml</name>
+			<author> carey</author>
+			<title> New Perspective on XML</title>
+		</book>
+</bookdoc>
